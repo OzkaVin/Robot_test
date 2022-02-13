@@ -1,0 +1,21 @@
+student:
+  firstName: Anna
+  lastName: Petrova
+  dateOfBirth:
+    year: 1990
+    month: 10
+    day: 15
+address:
+  city: Kyiv
+  zip: 33054
+  street: "Bankova street"
+  house:54
+  flat: null
+scholarship: false
+payments:
+  september: 10500.50
+  october: [ 5500.50, 5000 ]
+  november:
+    - 5500.50
+    - 5000
+married: True
