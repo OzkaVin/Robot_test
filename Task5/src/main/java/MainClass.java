@@ -2,7 +2,7 @@ public class MainClass {
     public static void main(String[] args) {
         OtherClass classInstance = new OtherClass();
 
-        classInstance.printNumber();
-        System.out.println("~~~ <возвращенное значение> \"~~~");
+        int value = classInstance.printReturnNumber();
+        System.out.println(String.format("~~~%d~~~",value));
     }
 }
