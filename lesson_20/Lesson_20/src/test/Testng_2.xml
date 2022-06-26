@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Getters and Setters">
+    <test name="Getters and Setters of Man, Woman classes">
+        <classes>
+            <class name="ManTestNG">
+                <methods>
+                    <include name="TestGetFirstName"/>
+                    <include name="TestGetLastName"/>
+                    <include name="TestGetAge"/>
+                    <include name="TestSetAge"/>
+                    <include name="TestSetFirstName"/>
+                    <include name="TestSetLastName"/>
+                </methods>
+            </class>
+            <class name="WomanTestNG">
+                <methods>
+                    <include name="TestGetFirstName"/>
+                    <include name="TestGetLastName"/>
+                    <include name="TestGetAge"/>
+                    <include name="TestGetMaidenName"/>
+                    <include name="TestSetAge"/>
+                    <include name="TestSetFirstName"/>
+                    <include name="TestSetLastName"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
