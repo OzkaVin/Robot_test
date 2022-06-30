@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests">
+    <suite-files>
+        <suite-file path="./Testng_2.xml">            
+        </suite-file>
+    </suite-files>
+    <test name="Partnership test">
+        <classes>
+            <class name="PartnershipTestNG">
+            </class>
+        </classes>
+    </test>
+    <test name="Methods of Man class">
+        <classes>
+            <class name="ManTestNG">
+                <methods>
+                    <include name="TestNonRetiredMan"/>
+                    <include name="TestRetiredMan"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Methods of Woman class">
+        <classes>
+            <class name="WomanTestNG">
+                <methods>
+                    <include name="TestNonRetiredWoman"/>
+                    <include name="TestRetiredWoman"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
